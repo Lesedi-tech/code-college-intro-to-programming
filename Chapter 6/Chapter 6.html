@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6</title>
+</head>
+
+<body>
+    <h1>Hello Lesedi!</h1>
+    <h2>Rookie</h2>
+    <p>My<em> first</em> web page.</p>
+    <p><a href="http://xkcd.com">Click here</a> to read some excellent
+        comics.</p>
+    <a href="http://xkcd.com" title="xkcd: Land of geeky comics!">Click here</a>
+
+    <script>
+        var lemonChicken = false;
+        var beefWithBlackBean = false;
+        var sweetAndSourPork = true;
+        if (lemonChicken) {
+            console.log("Great! I'm having lemon chicken!");
+        } else if (beefWithBlackBean) {
+            console.log("I'm having the beef.");
+        } else if (sweetAndSourPork) {
+            console.log("OK, I'll have the pork.");
+        } else {
+            console.log("Well, I guess I'll have rice then.");
+        }
+
+
+        var sheepCounted = 0;
+        while (sheepCounted < 10) {
+            console.log("I have counted " + sheepCounted + " sheep!");
+            sheepCounted++;
+        }
+        console.log("Zzzzzzzzzzz");
+
+
+        var timesToSayHello = 3;
+        for (var i = 0; i < timesToSayHello; i++) {
+            console.log("Hello!");
+        }
+
+        for (var i = 3; i < 10000; i = i * 3) {
+            console.log(i);
+        }
+
+        var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
+        for ( var i = animals.length; i > animals.length;i--){
+            console.log(animals[i] = "Awesome " + animals[i]);
+        }
+
+
+
+    </script>
+</body>
+
+</html>
